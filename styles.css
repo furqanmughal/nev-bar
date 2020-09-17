@@ -14,7 +14,7 @@ nav {
   height: 80px;
   width: 100%;
   display: flex;
-  position: relative;
+  position: fixed   ;
 }
 #bgimg {
   width: 100%;
@@ -32,6 +32,8 @@ nav {
   border: transparent 2px;
   border-radius: 20px;
   padding: 20px;
+  position: relative;
+  top: 15%;
   text-transform: uppercase;
   position: relative;
 }
